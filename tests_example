@@ -1,0 +1,8 @@
+# Example Test Case Here:
+ASYNC_PUT AAA aaa USE useput
+ASYNC_GET AAA USE useget
+WAIT_TAG useput
+CHECK_TAG useget aaa
+CHECK_ONE AAA aaa SING
+CHECK_ALL AAA aaa
+# Put your own manual test case in the following
